@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+    margin-left:20px;
+    margin-top: 10px;
+    width: 8.5rem;
+    height:8.5rem;
+}
+
+#menu-header{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    background-color: #0697c4;
+}
+
+#menu-nav ul li{
+    list-style: none;
+    display: inline-flex;
+    padding: 20px;
+}
+
+#menu-nav ul li a{
+     font-family: "Montserrat", sans-serif;
+     font-size: 18px;
+     text-decoration: none;
+     text-transform: uppercase;
+     color: white;
+}
+#menu-nav ul li a:hover{
+    font-weight: 600;
+    border-radius: 12px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #9bd5e7;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(88, 255, 199);
+}
+
+#login {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.name input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #1e1c2e;
+    color: #b6b6b6;
+    margin-bottom: 15px;
+}
+
+.email input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #4b576193;
+    color: #b6b6b6;
+}
+
+.senha input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #4b576193;
+    color: #b6b6b6;
+    margin-top: 15px;
+}
+
+.senha input:hover{
+    background-color: #4b5761;
+}
+
+.email input:hover{
+    background-color: #4b5761;
+}
+
+.entrar input {
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: #141414;
+    margin-top: 15px;
+}
+
+.entrar{
+    margin-top: 15px;
+}
+
+.entrar input:hover{
+    background-color: black;
+    color: white;
+}
+
+input::placeholder {
+    color: #b6b6b6;
+}
+
+h1 {
+    color: #FAFAFA;
+    margin-bottom: 15px;
+}
+
+.caixa {
+    margin-top: 65px;
+}
+
+.caixa img {
+    width: 115px;
+}
+
+input:focus {
+    outline: none;
+}
