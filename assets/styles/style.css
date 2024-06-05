@@ -123,16 +123,17 @@ strong {
     line-height: 2rem;
     margin: 12rem 0rem 0rem 5rem;
     border-left: .2rem solid #0593be;
-    padding: 0rem 0rem 0rem 2rem;
+    padding: 0rem 0rem 0rem 1rem;
 }
 
 .section1 img{
     width: 36%;
     height: 36%;
     position: relative;
-    left: 68%;
+    left: 64%;
     bottom: 30%;
     border-radius: 4rem 0rem 0rem 4rem;
+    box-shadow: 0px 0px 10px #282828;
 }
 
 /* Estilo da seção 2 */
@@ -150,7 +151,6 @@ strong {
     text-align: right;
     text-transform: uppercase;
     padding: 10rem 5rem 0rem 0rem;
-
 }
 
 .section2 p{
@@ -160,7 +160,7 @@ strong {
     text-align: right;
     margin: 12rem 5rem 0rem 0rem;
     border-right: .2rem solid #0593be;
-    padding: 0rem 2rem 0rem 0rem;
+    padding: 0rem 1rem 0rem 0rem;
 }
 
 .section2 img{
@@ -170,6 +170,7 @@ strong {
     bottom: 30%;
     right: 3%;
     border-radius: 0rem 4rem 4rem 0rem;
+    box-shadow: 0px 0px 10px #808080;
 }
 
 /* Estilo da seção 3 */
@@ -193,16 +194,17 @@ strong {
     line-height: 2rem;
     margin: 12rem 0rem 0rem 5rem;
     border-left: .2rem solid #0593be;
-    padding: 0rem 0rem 0rem 2rem;
+    padding: 0rem 0rem 0rem 1rem;
 }
 
 .section3 img{
     width: 36%;
     height: 36%;
     position: relative;
-    left: 68%;
+    left: 64%;
     bottom: 30%;
     border-radius: 4rem 0rem 0rem 4rem;
+    box-shadow: 0px 0px 10px #282828;
 }
 
 /* Estilo da seção 4 */
@@ -220,7 +222,6 @@ strong {
     text-align: right;
     text-transform: uppercase;
     padding: 10rem 5rem 0rem 0rem;
-
 }
 
 .section4 p{
@@ -230,7 +231,7 @@ strong {
     text-align: right;
     margin: 12rem 5rem 0rem 0rem;
     border-right: .2rem solid #0593be;
-    padding: 0rem 2rem 0rem 0rem;
+    padding: 0rem 1rem 0rem 0rem;
 }
 
 .section4 img{
@@ -240,6 +241,7 @@ strong {
     bottom: 34%;
     right: 3%;
     border-radius: 0rem 4rem 4rem 0rem;
+    box-shadow: 0px 0px 10px #808080;
 }
 
 /* Estilo da seção 5 */
@@ -263,16 +265,17 @@ strong {
     line-height: 2rem;
     margin: 12rem 0rem 0rem 5rem;
     border-left: .2rem solid #0593be;
-    padding: 0rem 0rem 0rem 2rem;
+    padding: 0rem 0rem 0rem 1rem;
 }
 
 .section5 img{
     width: 36%;
     height: 36%;
     position: relative;
-    left: 68%;
+    left: 64%;
     bottom: 30%;
     border-radius: 4rem 0rem 0rem 4rem;
+    box-shadow: 0px 0px 10px #282828;
 }
 
 /* Estilo do rodapé */
