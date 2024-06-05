@@ -104,38 +104,35 @@ strong {
 
 /* Estilo da seção 1 */
 .section1 {
+    background-color: #fff;
+    width: 100%;
     height: 70rem;
-    width: 70rem;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .section1 h1 {
-    width: auto;
-    height: 10rem;
-    line-height: 3rem;
-    font-size: 2.3rem;
-    text-transform: uppercase;
     color: #0593be;
-    margin: 6rem 12rem 0 12rem;
+    font-size: 2.3rem;
+    line-height: 3rem;
+    text-transform: uppercase;
+    padding: 10rem 0rem 0rem 5rem;
 }
 
 .section1 p {
-    width: 50rem;
-    height: 10rem;
+    color: #000;
     font-size: 1.7rem;
-    line-height: 3rem;
-    margin: 0 12rem 0 12rem;
-    border-left: 0.2rem solid #0697c4;
-    padding-left: 1rem;
+    line-height: 2rem;
+    margin: 12rem 0rem 0rem 5rem;
+    border-left: .2rem solid #0593be;
+    padding: 0rem 0rem 0rem 2rem;
 }
 
-.imgmar {
-    float: right;
-    max-width: 40%;
-    border-radius: 4rem 0 0 4rem;
-    margin: 25rem 0 20rem 0;
-    box-shadow: 0px 0px 10px 2px darkgray;
+.section1 img{
+    width: 36%;
+    height: 36%;
+    position: relative;
+    left: 68%;
+    bottom: 30%;
+    border-radius: 4rem 0rem 0rem 4rem;
 }
 
 /* Estilo da seção 2 */
@@ -143,7 +140,7 @@ strong {
 .section2{
     background-color: #282828;
     width: 100%;
-    height: 60rem;
+    height: 70rem;
 }
 
 .section2 h1 {
@@ -157,114 +154,125 @@ strong {
 }
 
 .section2 p{
-    color: white;
-    font-size: 1.5rem;
-    line-height: 3rem;
+    color: #fff;
+    font-size: 1.7rem;
+    line-height: 2rem;
     text-align: right;
-    padding: 8rem 5rem 0rem 0rem;
+    margin: 12rem 5rem 0rem 0rem;
+    border-right: .2rem solid #0593be;
+    padding: 0rem 2rem 0rem 0rem;
 }
 
 .section2 img{
     width: 36%;
     height: 36%;
     position: relative;
-    bottom: 34%;
+    bottom: 30%;
+    right: 3%;
     border-radius: 0rem 4rem 4rem 0rem;
 }
 
 /* Estilo da seção 3 */
 .section3 {
-    height: 20rem;
-    width: 70rem;
-    display: flex;
-    flex-wrap: wrap;
+    background-color: #fff;
+    width: 100%;
+    height: 70rem;
 }
 
 .section3 h1 {
-    color: #e22b2b;
-    padding: 1.5rem;
+    color: #0593be;
     font-size: 2.3rem;
+    line-height: 3rem;
     text-transform: uppercase;
-    margin-top: 8rem;
-    margin-left: 10.5rem;
+    padding: 10rem 0rem 0rem 5rem;
 }
 
 .section3 p {
     color: #000;
-    max-width: 60%;
-    margin-left: 12rem;
-    margin-top: 10rem;
     font-size: 1.7rem;
-    border-left: 0.2rem solid #e22b2b;
-    padding-left: 1rem;
+    line-height: 2rem;
+    margin: 12rem 0rem 0rem 5rem;
+    border-left: .2rem solid #0593be;
+    padding: 0rem 0rem 0rem 2rem;
 }
 
-.praia {
-    max-width: 38.5%;
-    float: right;
-    border-radius: 4rem 0 0 4rem;
+.section3 img{
+    width: 36%;
+    height: 36%;
+    position: relative;
+    left: 68%;
+    bottom: 30%;
+    border-radius: 4rem 0rem 0rem 4rem;
 }
 
 /* Estilo da seção 4 */
-.section4 {
+
+.section4{
     background-color: #282828;
-    color: white;
-    height: 100vh;
+    width: 100%;
+    height: 70rem;
 }
 
 .section4 h1 {
-    color: #02ca02;
-    padding: 1.5rem;
+    color: #0593be;
     font-size: 2.3rem;
+    line-height: 3rem;
+    text-align: right;
     text-transform: uppercase;
-    margin-left: 77rem;
+    padding: 10rem 5rem 0rem 0rem;
+
 }
 
-.section4 p {
-    max-width: 60%;
-    margin-left: 59rem;
-    margin-top: 12rem;
+.section4 p{
+    color: #fff;
     font-size: 1.7rem;
-    border-left: 0.2rem solid #02ca02;
-    padding-left: 2rem;
+    line-height: 2rem;
+    text-align: right;
+    margin: 12rem 5rem 0rem 0rem;
+    border-right: .2rem solid #0593be;
+    padding: 0rem 2rem 0rem 0rem;
 }
 
-.peixeimg {
-    width: 35.7%;
-    float: left;
-    border-radius: 0 4rem 4rem 0;
-    margin-top: 15rem;
+.section4 img{
+    width: 36%;
+    height: 36%;
+    position: relative;
+    bottom: 34%;
+    right: 3%;
+    border-radius: 0rem 4rem 4rem 0rem;
 }
 
 /* Estilo da seção 5 */
 .section5 {
-    color: #000;
-    height: 100vh;
+    background-color: #fff;
+    width: 100%;
+    height: 70rem;
 }
 
 .section5 h1 {
-    color: #03cdff;
-    padding: 1.5rem;
+    color: #0593be;
     font-size: 2.3rem;
+    line-height: 3rem;
     text-transform: uppercase;
-    margin-left: 10.5rem;
-    margin-top: 3rem;
+    padding: 10rem 0rem 0rem 5rem;
 }
 
 .section5 p {
-    max-width: 60%;
-    margin-left: 12rem;
+    color: #000;
     font-size: 1.7rem;
-    border-left: 0.2rem solid #03cdff;
-    margin-top: 9rem;
-    padding-left: 1rem;
+    line-height: 2rem;
+    margin: 12rem 0rem 0rem 5rem;
+    border-left: .2rem solid #0593be;
+    padding: 0rem 0rem 0rem 2rem;
 }
 
-.golfinhoimg {
-    width: 38%;
-    float: right;
-    border-radius: 4rem 0 0 4rem;
-    margin-top: 9rem;
+.section5 img{
+    width: 36%;
+    height: 36%;
+    position: relative;
+    left: 68%;
+    bottom: 30%;
+    border-radius: 4rem 0rem 0rem 4rem;
 }
 
 /* Estilo do rodapé */
