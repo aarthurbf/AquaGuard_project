@@ -1,52 +1,45 @@
-/* Importação das fontes do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* Reset de margens, paddings e box-sizing */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo do corpo da página */
 body {
     font-family: "Montserrat", sans-serif;
 }
 
-/* Estilo do texto em negrito */
 strong {
     color: #6cceec;
 }
 
-/* Estilo da seção hero */
 .hero { 
     width: 100%;
     height: 100vh;
     background: url('/assets/imgs/oceano.jpg') no-repeat center/cover;
-    filter: brightness(80%);
+    filter: brightness(90%);
     display: flex;
     align-items: center;
     position: relative;
 }
 
-/* Estilo do título sobreposto */
 .hero-content {
-    color: #ffffff;
+    color: #fff;
     font-size: 3.7rem;
     text-align: right;
+    text-transform: uppercase;
     position: absolute;
     top: 26rem;
     right: 1rem;
     padding: 1rem;
 }
 
-/* Estilo do logo */
 #logo {
     width: 8rem;
     height: 8rem;
 }
 
-/* Estilo do header */
 #menu-header {
     width: 100%;
     background-color: #000;
@@ -57,7 +50,6 @@ strong {
     z-index: 1000;
 }
 
-/* Estilo do texto #SaveTheOcean */
 .saveocean {
     color: #ffffff;
     font-size: 1rem;
@@ -69,19 +61,16 @@ strong {
     z-index: 999;
 }
 
-/* Estilo do menu de navegação */
 #menu-nav {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
 }
 
-/* Estilo da lista de navegação */
 #menu-nav ul {
     display: flex;
 }
 
-/* Estilo dos links de navegação */
 #menu-nav ul li a {
     color: white;
     font-size: 18px;
@@ -96,7 +85,6 @@ strong {
     transition: 0.7s;
 }
 
-/* Estilo da seção 1 */
 .section1 {
     background-color: #fff;
     width: 100%;
@@ -129,8 +117,6 @@ strong {
     border-radius: 4rem 0rem 0rem 4rem;
     box-shadow: 0px 0px 10px #282828;
 }
-
-/* Estilo da seção 2 */
 
 .section2{
     background-color: #282828;
@@ -167,7 +153,6 @@ strong {
     box-shadow: 0px 0px 10px #808080;
 }
 
-/* Estilo da seção 3 */
 .section3 {
     background-color: #fff;
     width: 100%;
@@ -200,8 +185,6 @@ strong {
     border-radius: 4rem 0rem 0rem 4rem;
     box-shadow: 0px 0px 10px #282828;
 }
-
-/* Estilo da seção 4 */
 
 .section4{
     background-color: #282828;
@@ -238,7 +221,6 @@ strong {
     box-shadow: 0px 0px 10px #808080;
 }
 
-/* Estilo da seção 5 */
 .section5 {
     background-color: #fff;
     width: 100%;
@@ -272,7 +254,6 @@ strong {
     box-shadow: 0px 0px 10px #282828;
 }
 
-/* Estilo do rodapé */
 /* footer {
     background-color: #000;
     color: #fff;
