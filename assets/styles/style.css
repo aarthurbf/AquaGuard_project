@@ -1,99 +1,96 @@
+/* Importação das fontes do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-* {/*reset*/
+/* Reset de margens, paddings e box-sizing */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Estilo do corpo da página */
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
+    font-family: "Montserrat", sans-serif;
 }
 
+/* Estilo do texto em negrito */
 strong {
     color: #6cceec;
-    /* -webkit-text-stroke-width: 0.084rem; /* deixa com borda----
-    -webkit-text-stroke-color: rgb(47, 129, 150); */
 }
 
+/* Estilo da seção hero */
 .hero { 
     width: 100%;
     height: 100vh;
-    background-image: url('/assets/imgs/oceano.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100%;
-    position: relative;
+    background: url('/assets/imgs/oceano.jpg') no-repeat center center/cover;
+    filter: brightness(80%);
     display: flex;
     align-items: center;
+    position: relative;
 }
 
+/* Estilo do título sobreposto */
 .titulo-sobreposto {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 26rem;
+    right: 1rem;
     padding: 1rem;
-    box-sizing: border-box;
     color: white;
     font-size: 3.7rem;
-    margin-top: 26rem;
-    margin-right: 1rem;
     text-align: right;
 }
 
-.titulo-sobreposto span {
-    display: block;
-}
-
+/* Estilo do logo */
 #logo {
     width: 8rem;
     height: 8rem;
-    margin: 0 auto;
-    padding: 0;
 }
 
+/* Estilo do header */
 #menu-header {
     width: 100%;
     height: 11rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: transparent;
-    background-color: #000000;
-    z-index: 10000;
+    background-color: #000;
+    z-index: 1000;
     position: fixed;
 }
 
+/* Estilo do texto #SaveTheOcean */
 .saveocean {
     position: absolute;
     top: 0;
     left: 0;
-    padding: .8rem;
+    padding: 0.8rem;
     color: white;
-    font-family: "Montserrat", sans-serif;
     font-size: 1rem;
     text-transform: uppercase;
-    z-index: 9999;
+    z-index: 999;
 }
 
+/* Estilo do menu de navegação */
 #menu-nav {
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
+/* Estilo da lista de navegação */
 #menu-nav ul {
     display: flex;
-    padding: 0;
 }
 
+/* Estilo dos itens da lista de navegação */
 #menu-nav ul li {
     list-style: none;
     padding: 20px;
 }
 
+/* Estilo dos links de navegação */
 #menu-nav ul li a {
-    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     text-decoration: none;
     text-transform: uppercase;
@@ -102,83 +99,80 @@ strong {
 
 #menu-nav ul li a:hover {
     font-weight: 600;
-    border-radius: 12px;
+    border-radius: 1rem;    
 }
 
+/* Estilo da seção 1 */
 .section1 {
-    height: 20rem;
+    height: 70rem;
     width: 70rem;
     display: flex;
     flex-wrap: wrap;
 }
 
 .section1 h1 {
-    font-family: "Montserrat", sans-serif;
-    color: #0593be;
-    padding: 1.5rem;
+    width: auto;
+    height: 10rem;
+    line-height: 3rem;
     font-size: 2.3rem;
     text-transform: uppercase;
-    margin-top: 8rem;
-    margin-left: 10.5rem;
+    color: #0593be;
+    margin: 6rem 12rem 0 12rem;
 }
 
 .section1 p {
-    color: rgb(0, 0, 0);
-    max-width: 60%;
-    margin-left: 12rem;
-    margin-top: 9rem;
+    width: 50rem;
+    height: 10rem;
     font-size: 1.7rem;
-    border-left: .2rem solid #0697c4;
+    line-height: 3rem;
+    margin: 0 12rem 0 12rem;
+    border-left: 0.2rem solid #0697c4;
     padding-left: 1rem;
 }
 
 .imgmar {
-    padding: 0rem 0;
-    max-width: 40%;
-    max-height: 40%;
     float: right;
+    max-width: 40%;
     border-radius: 4rem 0 0 4rem;
-    margin-bottom: 20rem;
+    margin: 25rem 0 20rem 0;
+    box-shadow: 0px 0px 10px 2px darkgray;
 }
 
-/* Nova seção com fundo preto */
-.section2 {
-    background-color: rgb(40, 40, 40);
-    color: white;
-    height: 100vh;
-    margin-top: 80vh;
+/* Estilo da seção 2 */
+
+.section2{
+    background-color: #282828;
+    width: 100%;
+    height: 60rem;
 }
 
 .section2 h1 {
-    font-family: "Montserrat", sans-serif;
-    color: yellow;
-    padding: 1.5rem;
+    color: #0593be;
     font-size: 2.3rem;
+    line-height: 3rem;
+    text-align: right;
     text-transform: uppercase;
-    margin-left: 64.7rem;
-    margin-right: 5rem;
+    padding: 10rem 5rem 0rem 0rem;
+
 }
 
-.section2 p {
-    color: rgb(255, 255, 255);
-    max-width: 60%;
-    margin-left: 59rem;
-    margin-top: 10rem; /* Ajuste este valor conforme necessário */
-    font-size: 1.7rem;
-    border-left: .2rem solid yellow;
-    padding-left: 2rem;
-    padding-right: 0.2rem;
+.section2 p{
+    color: white;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    text-align: right;
+    padding: 8rem 5rem 0rem 0rem;
 }
 
-
-.dronemar{
-    width: 35.7%;
-    height: 50%;
-    float: left;
-    border-radius: 0 4rem 4rem 0;
-    margin-top: 15rem;
+.section2 img{
+    width: 36%;
+    height: 36%;
+    position: relative;
+    bottom: 34%;
+    border-radius: 0rem 4rem 4rem 0rem;
 }
 
+/* Estilo da seção 3 */
 .section3 {
     height: 20rem;
     width: 70rem;
@@ -187,7 +181,6 @@ strong {
 }
 
 .section3 h1 {
-    font-family: "Montserrat", sans-serif;
     color: #e22b2b;
     padding: 1.5rem;
     font-size: 2.3rem;
@@ -197,67 +190,59 @@ strong {
 }
 
 .section3 p {
-    color: rgb(0, 0, 0);
+    color: #000;
     max-width: 60%;
     margin-left: 12rem;
     margin-top: 10rem;
     font-size: 1.7rem;
-    border-left: .2rem solid #e22b2b;
+    border-left: 0.2rem solid #e22b2b;
     padding-left: 1rem;
 }
 
 .praia {
-    padding: 0rem 0;
     max-width: 38.5%;
-    height: 0%;
     float: right;
     border-radius: 4rem 0 0 4rem;
 }
- 
+
+/* Estilo da seção 4 */
 .section4 {
-    background-color: rgb(40, 40, 40);
+    background-color: #282828;
     color: white;
     height: 100vh;
-    margin-top: 80vh;
 }
 
 .section4 h1 {
-    font-family: "Montserrat", sans-serif;
-    color: rgb(2, 202, 2);
+    color: #02ca02;
     padding: 1.5rem;
     font-size: 2.3rem;
     text-transform: uppercase;
     margin-left: 77rem;
-    margin-right: 5rem;
 }
 
 .section4 p {
-    color: rgb(255, 255, 255);
     max-width: 60%;
     margin-left: 59rem;
-    margin-top: 12rem; /* Ajuste este valor conforme necessário */
+    margin-top: 12rem;
     font-size: 1.7rem;
-    border-left: .2rem solid rgb(2, 202, 2);
+    border-left: 0.2rem solid #02ca02;
     padding-left: 2rem;
-    padding-right: 0.2rem;
 }
 
-
-.peixeimg{
+.peixeimg {
     width: 35.7%;
-    height: 50%;
     float: left;
     border-radius: 0 4rem 4rem 0;
     margin-top: 15rem;
 }
 
+/* Estilo da seção 5 */
 .section5 {
-    color: rgb(0, 0, 0);
+    color: #000;
     height: 100vh;
 }
 
 .section5 h1 {
-    font-family: "Montserrat", sans-serif;
     color: #03cdff;
     padding: 1.5rem;
     font-size: 2.3rem;
@@ -267,44 +252,39 @@ strong {
 }
 
 .section5 p {
-    color: rgb(0, 0, 0);
     max-width: 60%;
     margin-left: 12rem;
     font-size: 1.7rem;
-    border-left: .2rem solid #03cdff;
+    border-left: 0.2rem solid #03cdff;
     margin-top: 9rem;
     padding-left: 1rem;
 }
 
-.golfinhoimg{
-    display: flex;
+.golfinhoimg {
     width: 38%;
-    height: 55%;
     float: right;
     border-radius: 4rem 0 0 4rem;
     margin-top: 9rem;
 }
 
-footer {
+/* Estilo do rodapé */
+/* footer {
     background-color: #000;
     color: #fff;
     padding: 20px;
     height: 70vh;
 }
 
-.top-row{
+.top-row {
     display: flex;
-    height: 10rem;
     justify-content: center;
     gap: 5rem;
-    filter: grayscale(100%) brightness(100);
+    filter: grayscale(100%) brightness(100%);
 }
 
-.bottom-row{
+.bottom-row {
     display: flex;
-    height: 10rem;
     justify-content: space-between;
     margin-top: 14rem;
-    filter: grayscale(100%) brightness(100);
-}
-
+    filter: grayscale(100%) brightness(100%);
+} */
