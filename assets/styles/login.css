@@ -1,140 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
-#logo{
-    margin-left:20px;
-    margin-top: 10px;
-    width: 8.5rem;
-    height:8.5rem;
-}
-
-#menu-header{
-    width: 100%;
-    height: 120px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: transparent;
-    background-color: #0697c4;
-}
-
-#menu-nav ul li{
-    list-style: none;
-    display: inline-flex;
-    padding: 20px;
-}
-
-#menu-nav ul li a{
-     font-family: "Montserrat", sans-serif;
-     font-size: 18px;
-     text-decoration: none;
-     text-transform: uppercase;
-     color: white;
-}
-#menu-nav ul li a:hover{
-    font-weight: 600;
-    border-radius: 12px;
-}
-
+/* Estilos padrões para desktop e tablets */
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #9bd5e7;
-    color: #fff;
+    height: 90vh;
+    background-color: #000000;
 }
 
-a {
-    text-decoration: none;
-    color: rgb(88, 255, 199);
+.overlay {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    height: 95.83vh;
+    width: 43vh;
+    z-index: 99999;
+}
+
+.overlay p {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+form {
+    margin: 5rem 0 0 2.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 20rem;
+}
+
+input {
+    height: 3rem;
 }
 
 #login {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     display: flex;
-    flex-direction: row;
+    border-radius: 0.2rem;
+    border: 0.1em black solid;
+    padding-left: 10px;
 }
 
-.name input {
-    border-radius: 15px;
-    border: none;
-    width: 250px;
-    height: 40px;
-    padding-left: 15px;
-    background-color: #1e1c2e;
-    color: #b6b6b6;
-    margin-bottom: 15px;
+#senha {
+    display: flex;
+    border-radius: 0.2rem;
+    border: 0.1em black solid;
+    margin-top: 2rem;
+    padding-left: 10px;
 }
 
-.email input {
-    border-radius: 15px;
-    border: none;
-    width: 250px;
-    height: 40px;
-    padding-left: 15px;
-    background-color: #4b576193;
-    color: #b6b6b6;
-}
-
-.senha input {
-    border-radius: 15px;
-    border: none;
-    width: 250px;
-    height: 40px;
-    padding-left: 15px;
-    background-color: #4b576193;
-    color: #b6b6b6;
-    margin-top: 15px;
-}
-
-.senha input:hover{
-    background-color: #4b5761;
-}
-
-.email input:hover{
-    background-color: #4b5761;
-}
-
-.entrar input {
-    cursor: pointer;
-    width: 120px;
-    height: 40px;
-    border-radius: 20px;
-    border: none;
-    background-color: rgb(255, 255, 255);
-    color: #141414;
-    margin-top: 15px;
-}
-
-.entrar{
-    margin-top: 15px;
-}
-
-.entrar input:hover{
-    background-color: black;
+.button {
+    margin-top: 2rem;
+    background-color: #000000;
     color: white;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.7s ease-in-out, border-radius 0.7s ease-in-out;
 }
 
-input::placeholder {
-    color: #b6b6b6;
+.button:hover {
+    background-color: #d4d2d2;
+    color: black;
+    border-radius: 4rem;
+    border: 0.1rem solid black;
+    box-shadow: 0.2rem 0.2rem black;
 }
 
-h1 {
-    color: #FAFAFA;
-    margin-bottom: 15px;
+.logo {
+    height: 8rem;
+    margin: 2rem 0 0 9.5rem;
 }
 
-.caixa {
-    margin-top: 65px;
+.banner {
+    display: flex;
+    height: 58.7rem;
 }
 
-.caixa img {
-    width: 115px;
-}
 
-input:focus {
-    outline: none;
+@media (max-width: 768px) {
+    .overlay {
+        width: 90vw;
+        height: auto;
+        padding: 20px;
+        top: 10%;
+        right: 50%;
+        transform: translate(50%, 0);
+    }
+
+    .logo {
+        margin: 1rem auto;
+    }
+
+    .overlay p {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+
+    form {
+        margin: 2rem auto;
+        width: 80vw;
+    }
+
+    input {
+        width: 100%;
+        box-sizing: border-box;
+    }
 }

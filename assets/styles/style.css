@@ -10,6 +10,10 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 strong {
     color: #6cceec;
 }
@@ -36,8 +40,10 @@ strong {
 }
 
 #logo {
-    width: 8rem;
-    height: 8rem;
+    width: 5rem;
+    height: 5rem;
+    filter: invert(100%);
+    padding: 0.5rem;
 }
 
 #menu-header {
@@ -73,16 +79,15 @@ strong {
 
 #menu-nav ul li a {
     color: white;
-    font-size: 18px;
+    font-size: 1.2rem;
     text-decoration: none;
     text-transform: uppercase;
     padding: 0rem 1.2rem 0 1.2rem;
+    transition: all 0.1s ease ;
 }
 
 #menu-nav ul li a:hover {  
-    font-weight: 600;
-    border-bottom: 1px solid white; 
-    transition: 0.7s;
+    border-bottom: 0.1rem solid white; 
 }
 
 .section1 {

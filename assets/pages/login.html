@@ -3,41 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/login.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="/assets/styles/login.css">
+    <title>AquaGuard</title>
 </head>
 <body>
-    <header id="menu-header">
-        <img src="/assets/imgs/logo_gs.png" alt="Logo" id="logo">
-        <nav id="menu-nav"> <!--  nav serve para navegação de paginas -->
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/assets/pages/login.html">Login</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div id="login">
-
-        <div class="caixa">
-            
-            <img src="img/logo.jpg" alt="">
-            <h1>LOGIN</h1>
-
-            <div class="email">
-                <input type="email" placeholder="E-mail">
-            </div>
-
-            <div class="senha">
-                <input type="text" placeholder="Senha">
-            </div>
-
-            <div class="entrar">
-                <p>Ainda não tem uma conta? <a href="cadastro.html">Crie uma.</a></p>
-                <input type="submit" value="Entrar">
-            </div>
-
-        </div>
-
+    <div class="banner">
+        <img src="/assets/imgs/loginbg.jpg" alt="baleia">
     </div>
+    <div class="overlay">
+        <a href="/index.html"><img class="logo" src="/assets/imgs/logo_gs.png" alt="logo"></a>
+        <p>Login</p>
+         <form>
+            <input type="text" placeholder="Seu nome" id="login">
+            <input type="password" placeholder="Sua senha" id="senha">
+            <input class="button" type="submit" value="Entrar">
+        </form>
+    </div>
+    <script src="/assets/js/login.js"></script>
 </body>
 </html>
