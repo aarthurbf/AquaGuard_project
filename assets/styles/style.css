@@ -83,11 +83,10 @@ strong {
     text-decoration: none;
     text-transform: uppercase;
     padding: 0rem 1.2rem 0 1.2rem;
-    transition: all 0.1s ease ;
 }
 
 #menu-nav ul li a:hover {  
-    border-bottom: 0.1rem solid white; 
+    font-weight: 600;
 }
 
 .section1 {
@@ -120,7 +119,7 @@ strong {
     left: 64%;
     bottom: 30%;
     border-radius: 4rem 0rem 0rem 4rem;
-    box-shadow: 0px 0px 10px #282828;
+    box-shadow: 0rem 0rem 0.6rem #282828;
 }
 
 .section2{
@@ -155,7 +154,7 @@ strong {
     bottom: 30%;
     right: 3%;
     border-radius: 0rem 4rem 4rem 0rem;
-    box-shadow: 0px 0px 10px #808080;
+    box-shadow: 0rem 0rem 0.6rem #808080;
 }
 
 .section3 {
@@ -188,7 +187,7 @@ strong {
     left: 64%;
     bottom: 30%;
     border-radius: 4rem 0rem 0rem 4rem;
-    box-shadow: 0px 0px 10px #282828;
+    box-shadow: 0rem 0rem 0.6rem #282828;
 }
 
 .section4{
@@ -223,7 +222,7 @@ strong {
     bottom: 34%;
     right: 3%;
     border-radius: 0rem 4rem 4rem 0rem;
-    box-shadow: 0px 0px 10px #808080;
+    box-shadow: 0rem 0rem 0.6rem #808080;
 }
 
 .section5 {
@@ -256,7 +255,7 @@ strong {
     left: 64%;
     bottom: 30%;
     border-radius: 4rem 0rem 0rem 4rem;
-    box-shadow: 0px 0px 10px #282828;
+    box-shadow: 0rem 0rem 0.6rem #282828;
 }
 
 /* footer {
