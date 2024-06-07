@@ -2,3 +2,5 @@ Nome : Arthur Bobadilla Franchi / RM 555056
 Nome : Igor Nascimento Medeiros / RM 555337
 
 Link do github : https://github.com/aarthurbf/front_end_gs.git
+
+Site hospedado no git : https://aarthurbf.github.io/front_end_gs/
