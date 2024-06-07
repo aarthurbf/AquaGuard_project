@@ -6,7 +6,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Estilos padrões para desktop e tablets */
 body {
     height: 90vh;
     background-color: #000000;
@@ -73,11 +72,16 @@ input {
 }
 
 .button:hover {
-    background-color: #d4d2d2;
+    background-color: #e0dfdf;
     color: black;
     border-radius: 4rem;
     border: 0.1rem solid black;
     box-shadow: 0.2rem 0.2rem black;
+}
+
+.error-msg {
+    display: none;
+    color: red;
 }
 
 .logo {
@@ -88,30 +92,30 @@ input {
 .banner {
     display: flex;
     height: 58.7rem;
+    background-image: none;
 }
 
-
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
     .overlay {
         width: 90vw;
         height: auto;
-        padding: 20px;
+        padding: 1.25rem;
         top: 10%;
         right: 50%;
         transform: translate(50%, 0);
     }
 
     .logo {
-        margin: 1rem auto;
+        margin: 0.625rem auto;
     }
 
     .overlay p {
-        margin-top: 2rem;
+        margin-top: 1.33rem;
         font-size: 1.5rem;
     }
 
     form {
-        margin: 2rem auto;
+        margin: 1.33rem auto;
         width: 80vw;
     }
 
